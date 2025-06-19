@@ -35,20 +35,20 @@ This project implements a **BERT-based text classification model** to classify A
 ### Historical Eras Distribution
 The dataset covers 9 distinct historical periods of Arabic poetry:
 
-| Era (Arabic) | Era (English) | Sample Count | Percentage |
-|--------------|---------------|--------------|------------|
-| العصر العباسي | Abbasid Era | 26,723 | 35.64% |
-| العصر المملوكي | Mamluk Era | 13,085 | 17.45% |
-| العصر الايوبي | Ayyubid Era | 8,157 | 10.88% |
-| العصر العثماني | Ottoman Era | 7,545 | 10.06% |
-| العصر الاموي | Umayyad Era | 7,330 | 9.77% |
-| العصر الأندلسي | Andalusian Era | 6,171 | 8.23% |
-| المخضرمون | Mukhadram Era | 3,290 | 4.39% |
-| العصر الجاهلي | Pre-Islamic Era | 2,350 | 3.13% |
-| العصر الاسلامي | Islamic Era | 337 | 0.45% |
+| Era (Arabic)   | Sample Count | Percentage |
+| -------------- | ------------ | ---------- |
+| العصر العباسي  | 26,723       | 35.64%     |
+| العصر المملوكي | 13,085       | 17.45%     |
+| العصر الايوبي  | 8,157        | 10.88%     |
+| العصر العثماني | 7,545        | 10.06%     |
+| العصر الاموي   | 7,330        | 9.77%      |
+| العصر الأندلسي | 6,171        | 8.23%      |
+| المخضرمون      | 3,290        | 4.39%      |
+| العصر الجاهلي  | 2,350        | 3.13%      |
+| العصر الاسلامي | 337          | 0.45%      |
 
 ### Data Characteristics
-- **Class Imbalance**: Significant imbalance with Abbasid Era representing 35.64% of data while Islamic Era only 0.45%
+- **Class Imbalance**: Significant imbalance with العصر العباسي representing 35.64% of data while العصر الاسلامي only 0.45%
 - **Text Complexity**: Classical Arabic poetry with varying lengths and styles
 
 ---
