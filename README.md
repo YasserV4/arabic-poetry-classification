@@ -35,7 +35,7 @@ This project implements a **BERT-based text classification model** to classify A
 ### Historical Eras Distribution
 The dataset covers 9 distinct historical periods of Arabic poetry:
 
-| Era (Arabic)   | Sample Count | Percentage |
+| Era    | Sample Count | Percentage |
 | -------------- | ------------ | ---------- |
 | العصر العباسي  | 26,723       | 35.64%     |
 | العصر المملوكي | 13,085       | 17.45%     |
