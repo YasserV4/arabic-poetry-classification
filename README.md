@@ -11,8 +11,8 @@ This project implements a **BERT-based text classification model** to classify A
 - **Performance Optimization**: Implements class weighting to handle imbalanced dataset
 
 ### Model Performance:
-- **Total Accuracy**: [28]%
-- **Weighted F1-Score**: [30]
+- **Total Accuracy**: 28%
+- **Weighted F1-Score**: 30%
 - **Training Dataset**: 74,988 poetry samples across 9 historical eras
 
 ---
@@ -30,7 +30,7 @@ This project implements a **BERT-based text classification model** to classify A
   - `poem_tags`: Poetry tags/themes (6,033 unique tags)
   - `poem_title`: Title of the poem (73,502 unique titles)
   - `poem_text`: Full text of the poetry (74,581 unique texts)
-  - `poem_count`: 90% of it ranges between 1-13 (74,581 unique poem counts)
+  - `poem_count`: 90% of it ranges between 1-13 (224 unique poem counts)
 
 ### Historical Eras Distribution
 The dataset covers 9 distinct historical periods of Arabic poetry:
@@ -175,8 +175,8 @@ The project contains trained model checkpoints and can be used for inference:
 ## 📈 Results and Performance
 
 ### Model Performance Metrics
-- **Overall Accuracy**: [28]%
-- **Weighted F1-Score**: [30]
+- **Overall Accuracy**: 28%
+- **Weighted F1-Score**: 30%
 
 ---
 
